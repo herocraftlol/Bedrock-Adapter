@@ -1,0 +1,7 @@
+name: BedrockAdapter
+version: 1.0.0
+main: tonpackage.bedrock.BedrockAdapterPlugin
+api-version: 1.21
+authors: [Tututte]
+description: Gere la distinction et la synchronisation des joueurs Bedrock (Geyser/Floodgate) avec le systeme de grades MySQL.
+depend: [Floodgate]
