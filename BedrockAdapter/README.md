@@ -1,7 +1,14 @@
 # BedrockAdapter
 
-Plugin Paper minimal pour detecter les joueurs Bedrock (via Geyser/Floodgate)
-et exposer un UUID "effectif" a utiliser dans ton systeme de grades/MySQL/Stripe.
+**BedrockAdapter** is a Paper plugin for detecting Bedrock players connected via Geyser/Floodgate and exposing an effective UUID for use with rank systems, MySQL databases, and payment integrations like Stripe.
+
+## Features
+
+- **Bedrock Player Detection**: Automatically detects players connecting from Bedrock Edition via Geyser/Floodgate
+- **UUID Caching**: In-memory cache for effective UUID management
+- **Floodgate Integration**: Seamless integration with Floodgate API
+- **Payment Compatibility**: Tools to handle Bedrock players differently in payment systems
+- **Paper 1.21 Support**: Built for the latest Paper server software
 
 ## Installation
 
